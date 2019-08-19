@@ -77,6 +77,9 @@ a project for wepy and git
     $ git branch -r -d origin/dev
     $ git push origin :dev
     两行代码合起来可以做删除远程分支的操作
+    
+    $git checkout -b 本地分支名 origin/远程分支名
+    将远程git仓库里的指定分支拉取到本地（本地不存在的分支）
 
   git合并分支(未验证)
 
@@ -138,6 +141,9 @@ a project for wepy and git
 
     $ git checkout .
     放弃工作区所有修改
+    
+    $ git reset
+    todo
 
     $ git log
     查看版本详细历史，基准为commit
